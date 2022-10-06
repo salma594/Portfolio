@@ -76,11 +76,10 @@
     left: -3rem;
 }
 /* the 3rd child which is my image would be in this place */
-/* .i-right>:nth-child(3){
-    top: -4.6rem;
-    transform: scale(0.67);
-    left: -3rem;
-} */
+/* .i-right > :nth-child(3) {
+    transform: scale(1.4);
+    left: 28%;
+  } */
 
 .i-right>:nth-child(3){
     transform: scale(0.6);
