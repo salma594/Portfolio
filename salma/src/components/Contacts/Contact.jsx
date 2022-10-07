@@ -1,10 +1,25 @@
 import React, {useContext} from 'react'
 import './Contact.css'
 import { themeContext } from "../../Context";
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ygymsc7', 'template_kmf0mim', e.target, 'xkLFVlmUl7wQA3jS0')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
   return (
     <div className="contact-form" id='contact'>
         <div className="w-left">
@@ -17,7 +32,7 @@ const Contact = () => {
             </div>
         </div>
         <div className="c-right">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
             <input type="text" name="user_name" className="user"  placeholder="Name"/>
             <input type="email" name="user_email" className="user" placeholder="Email"/>
             <textarea name="message" className="user" placeholder="Message"/>
@@ -28,17 +43,6 @@ const Contact = () => {
             ></div>
             </form>
         </div>
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
   )
