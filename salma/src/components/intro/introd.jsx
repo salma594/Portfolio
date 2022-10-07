@@ -31,13 +31,13 @@ const Intro = () => {
 
         <button className="button i-button">Hire</button>
         <div className="i-cons">
-          <a href="https://github.com/salma594">
+          <a href="https://github.com/salma594" target="_blank">
             <img src={Github} alt="" />
           </a>
-          <a href="https://www.linkedin.com/in/salma-saidi-312a71249/">
+          <a href="https://www.linkedin.com/in/salma-saidi-312a71249/" target="_blank">
             <img src={Linkedin} alt="" />
           </a>
-          <a href="https://www.instagram.com/ssaidik1/?hl=fr">
+          <a href="https://www.instagram.com/ssaidik1/?hl=fr" target="_blank">
             <img src={Instagram} alt="" />
           </a>
         </div>

@@ -8,6 +8,7 @@ import Contact from "./components/Contacts/Contact";
 import Footer from "./components/Footer/Footer";
 import { themeContext } from "./Context.js";
 import { useContext } from "react";
+import { Up } from "./components/Ups/Ups";
 
 function App() {
   const theme = useContext(themeContext);
@@ -27,6 +28,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
+      <Up/>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+#up{
+    position: fixed;
+    border: transparent;
+    border-radius: 50%;
+    bottom: 15px;
+    right: 15px;
+    background-color:var(--orange);
+    padding: 15px;
+    color: white;
+}
+FontAwesomeIcon{
+    margin-top: 3px;
+}
