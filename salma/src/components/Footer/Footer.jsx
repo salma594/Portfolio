@@ -7,7 +7,7 @@ import Github from "../../img/github.png";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id='Info'>
         <img src={Wave} alt="" style={{width:'100%'}}/>
         <div className='f-content'>
         
