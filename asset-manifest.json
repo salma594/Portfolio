@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.10e70c6f.css",
+    "main.js": "/Portfolio/static/js/main.bd8523f1.js",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.1d551edc84c5d5da41a5.pdf",
+    "static/media/squadfree.PNG": "/Portfolio/static/media/squadfree.149dc6f7072448f794a4.PNG",
+    "static/media/greenoffice.PNG": "/Portfolio/static/media/greenoffice.f543f0df4f5516926fa5.PNG",
+    "static/media/fish&ship.PNG": "/Portfolio/static/media/fish&ship.2f75b9c29617deff7acf.PNG",
+    "static/media/glassesimoji.png": "/Portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/devinette.PNG": "/Portfolio/static/media/devinette.6c0f6046835deee5fd24.PNG",
+    "static/media/thumbup.png": "/Portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
+    "static/media/humble.png": "/Portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/Portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/wave.png": "/Portfolio/static/media/wave.fdfef4069ad90f610990.png",
+    "static/media/crown.png": "/Portfolio/static/media/crown.dbe416beae9b49b842ab.png",
+    "static/media/Vector2.png": "/Portfolio/static/media/Vector2.28db5bfd58081dd1df1b.png",
+    "static/media/glasses.png": "/Portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "index.html": "/Portfolio/index.html",
+    "main.10e70c6f.css.map": "/Portfolio/static/css/main.10e70c6f.css.map",
+    "main.bd8523f1.js.map": "/Portfolio/static/js/main.bd8523f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10e70c6f.css",
+    "static/js/main.bd8523f1.js"
+  ]
+}
